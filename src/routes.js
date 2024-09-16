@@ -18,12 +18,13 @@ function Routes() {
             headerShown: false,
           }}
         />
-
         <Stack.Screen
-          name="login"
-          component={Login}
+          name="registro2"
+          component={Registro2}
           options={{
-            headerShown: false,
+            headerShownVisible: false,
+            title: "",
+            headerBlackTitle: "Voltar",
           }}
         />
 
@@ -38,12 +39,10 @@ function Routes() {
         />
 
         <Stack.Screen
-          name="registro2"
-          component={Registro2}
+          name="login"
+          component={Login}
           options={{
-            headerShownVisible: false,
-            title: "",
-            headerBlackTitle: "Voltar",
+            headerShown: false,
           }}
         />
       </Stack.Navigator>
